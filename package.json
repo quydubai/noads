@@ -1,4 +1,5 @@
 {
+  homepage": "https://quydubai.github.io/(noads)"
   "name": "music-box-next",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+    "predeploy": "npm run build"
+"deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@ant-design/compatible": "^5.1.2",
